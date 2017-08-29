@@ -77,12 +77,14 @@ div {
   font-size: 40px;
 }
 
-.fall-cancelled .image-content {
+.fall-cancelled.image-content {
   background-image: url("../images/img-story-2.png");
+  text-align: center;
 }
 
-.pop-culture .image-content {
+.pop-culture.image-content {
   background-image: url("../images/img-story-3.png");
+  text-align: center;
 }
 
 .image-content {
@@ -94,4 +96,10 @@ div {
 
 .image-content {
   height: 300px;
+}
+
+.narrative {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
