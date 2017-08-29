@@ -70,3 +70,28 @@ div {
   width: 240px;
   margin-right: 32px;
 }
+
+.lead-story .image-content {
+  background-image: url("../images/img-story-main.png");
+  width: 630px;
+  font-size: 40px;
+}
+
+.fall-cancelled .image-content {
+  background-image: url("../images/img-story-2.png");
+}
+
+.pop-culture .image-content {
+  background-image: url("../images/img-story-3.png");
+}
+
+.image-content {
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+.image-content {
+  height: 300px;
+}
