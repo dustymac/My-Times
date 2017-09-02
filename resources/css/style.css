@@ -47,10 +47,6 @@ nav span {
   justify-content: flex-end;
 }
 
-div {
-  border: solid 1px black;
-}
-
 .content {
   display: flex;
   width: 1232px;
@@ -115,4 +111,15 @@ div {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+}
+
+.story {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
 }
