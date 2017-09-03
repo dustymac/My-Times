@@ -17,6 +17,8 @@ a {
     position: fixed;
     z-index: 1;
     background-color: white;
+    border-bottom: 1px solid black;
+    margin-top: 20px;
   }
 
 .logo_container {
@@ -51,7 +53,7 @@ nav span {
   display: flex;
   width: 1232px;
   margin: 0 auto 78px auto;
-  padding-top: 100px;
+  padding-top: 125px;
 }
 
 .column.large {
@@ -75,10 +77,17 @@ nav span {
   margin-right: 32px;
 }
 
+.lead-story .image-content span {
+  margin-left: 20px;
+}
+
 .lead-story .image-content {
   background-image: url("../images/img-story-main.png");
   width: 630px;
   font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .fall-cancelled.image-content {
@@ -101,6 +110,9 @@ nav span {
   font-size: 30px;
   font-weight: bold;
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .image-content {
@@ -116,6 +128,11 @@ nav span {
 .stories {
   display: flex;
   justify-content: space-between;
+  margin-top: 17px;
+}
+
+.stories .text-content {
+  height: 250px;
 }
 
 .story {
@@ -142,6 +159,13 @@ nav span {
   text-align: left;
 }
 
+h2 {
+  margin-top: 0px;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+
 h3 {
   font-size: 16px;
   font-weight: bold;
@@ -153,7 +177,7 @@ footer {
   font-family: Verdana;
   font-size: 12px;
   width: 100%;
-  height: 300px;
+  height: 325px;
   display: flex;
   align-items: center;
   flex-direction: column;
